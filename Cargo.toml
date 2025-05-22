@@ -1,0 +1,18 @@
+[package]
+name = "pdf_bot"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A CLI tool to convert PDF files to text format for AI processing"
+license = "MIT"
+
+[[bin]]
+name = "pdf2txt"
+path = "src/main.rs"
+
+[dependencies]
+pdf-extract = "0.9.0"
+clap = { version = "4.0", features = ["derive"] }
+
+[dev-dependencies]
+tempfile = "3.0"
