@@ -7,7 +7,7 @@ description = "A CLI tool to convert PDF files to text format for AI processing"
 license = "MIT"
 
 [[bin]]
-name = "pdf2txt"
+name = "pdf_bot"
 path = "src/main.rs"
 
 [dependencies]
