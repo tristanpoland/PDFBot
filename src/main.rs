@@ -3,11 +3,6 @@ use std::fs;
 use std::path::Path;
 use std::process;
 
-// Add this to your Cargo.toml:
-// [dependencies]
-// pdf-extract = "0.7"
-// clap = { version = "4.0", features = ["derive"] }
-
 use clap::{Arg, Command};
 use pdf_extract::extract_text;
 
